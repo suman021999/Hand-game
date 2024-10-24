@@ -1,3 +1,6 @@
+
+
+
 const CHOICES = [
   {
     name: "paper",
@@ -108,11 +111,7 @@ function keepScore(point) {
     computerScore += 1;
     compScoreElement.innerText = computerScore;
   }
-  localStorage.setItem(myScore,computerScore)
-  // localStorage.setItem(computerScore)
 }
-
-
 
 // play again
 
